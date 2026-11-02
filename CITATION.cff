@@ -16,4 +16,5 @@ keywords:
   - convolutional neural network
   - ensemble learning
   - risk prediction
+doi: 10.5281/zenodo.23886807
 repository-code: "https://github.com/agustinohalim/ed-ecg-machine-reading"

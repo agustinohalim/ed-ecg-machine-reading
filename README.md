@@ -1,4 +1,5 @@
 # ed-ecg-machine-reading
+n[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23886807.svg)](https://doi.org/10.5281/zenodo.23886807)
 
 Analysis code and aggregate logs for the manuscript *Averaged training runs and a convolutional
 network's standing against the stored emergency electrocardiogram report* (in preparation).
