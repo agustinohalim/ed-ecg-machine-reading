@@ -1,0 +1,48 @@
+death_030_day: 43451 kunjungan, 430 kejadian; gelombang (43451, 3, 1000)
+  benih 0 lipat 0: AUROC 0.763  (259 d, latih 31410 kalibrasi 3350)
+  benih 0 lipat 1: AUROC 0.760  (231 d, latih 31202 kalibrasi 3560)
+  benih 0 lipat 2: AUROC 0.755  (280 d, latih 31308 kalibrasi 3452)
+  benih 0 lipat 3: AUROC 0.719  (234 d, latih 31245 kalibrasi 3515)
+  benih 0 lipat 4: AUROC 0.722  (211 d, latih 31274 kalibrasi 3488)
+  benih 1 lipat 0: AUROC 0.757  (238 d, latih 31248 kalibrasi 3512)
+  benih 1 lipat 1: AUROC 0.790  (231 d, latih 31211 kalibrasi 3551)
+  benih 1 lipat 2: AUROC 0.737  (385 d, latih 31212 kalibrasi 3548)
+  benih 1 lipat 3: AUROC 0.735  (355 d, latih 31168 kalibrasi 3592)
+  benih 1 lipat 4: AUROC 0.772  (346 d, latih 31293 kalibrasi 3469)
+  benih 2 lipat 0: AUROC 0.756  (569 d, latih 31219 kalibrasi 3541)
+  benih 2 lipat 1: AUROC 0.797  (529 d, latih 31297 kalibrasi 3465)
+  benih 2 lipat 2: AUROC 0.758  (426 d, latih 31288 kalibrasi 3472)
+  benih 2 lipat 3: AUROC 0.757  (484 d, latih 31282 kalibrasi 3478)
+  benih 2 lipat 4: AUROC 0.690  (528 d, latih 31329 kalibrasi 3433)
+death_030_day: 43451 kunjungan, 430 kejadian; gelombang (43451, 3, 1000)
+  benih 0: dari berkas
+  benih 1: dari berkas
+  benih 2: dari berkas
+  benih 3 lipat 0: AUROC 0.800  (229 d, latih 31254 kalibrasi 3508)
+  benih 3 lipat 1: AUROC 0.691  (351 d, latih 31250 kalibrasi 3512)
+  benih 3 lipat 2: AUROC 0.752  (632 d, latih 31321 kalibrasi 3439)
+  benih 3 lipat 3: AUROC 0.781  (549 d, latih 31246 kalibrasi 3514)
+  benih 3 lipat 4: AUROC 0.761  (2923 d, latih 31229 kalibrasi 3531)
+  benih 4 lipat 0: AUROC 0.796  (803 d, latih 31121 kalibrasi 3641)
+  benih 4 lipat 1: AUROC 0.770  (534 d, latih 31268 kalibrasi 3492)
+  benih 4 lipat 2: AUROC 0.778  (518 d, latih 31288 kalibrasi 3474)
+  benih 4 lipat 3: AUROC 0.747  (591 d, latih 31265 kalibrasi 3495)
+  benih 4 lipat 4: AUROC 0.751  (528 d, latih 31301 kalibrasi 3459)
+
+model AUROC (SD benih)   CI95            AUPRC (SD)       CI95            Brier   slope
+M0    0.749 (0.000)    [0.727, 0.772]  0.028 (0.000)  [0.023, 0.034]  0.0097  0.96
+M1g   0.814 (0.003)    [0.806, 0.844]  0.042 (0.002)  [0.039, 0.058]  0.0096  0.99
+M2    0.751 (0.010)    [0.767, 0.808]  0.035 (0.003)  [0.037, 0.061]  0.0097  1.40
+M3    0.825 (0.005)    [0.822, 0.857]  0.048 (0.002)  [0.046, 0.069]  0.0096  1.15
+
+ΔAUROC berpasangan (prediksi rata-rata benih), CI95 bootstrap pasien
+M1g − M0: +0.077  [+0.061, +0.095]
+M2 − M0: +0.038  [+0.011, +0.067]
+M2 − M1g: -0.039  [-0.060, -0.018]
+M3 − M1g: +0.014  [+0.007, +0.022]
+
+Kepekaan — hanya kunjungan diuji (n 4092, kejadian 69):
+  M0: AUROC 0.645
+  M1g: AUROC 0.791
+  M2: AUROC 0.803
+  M3: AUROC 0.817

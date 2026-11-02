@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "ed-ecg-machine-reading: averaged training runs and a 12-lead CNN against the stored emergency ECG report"
+type: software
+license: MIT
+version: 1.0.0
+date-released: 2026-11-02
+authors:
+  - given-names: Agustino
+    family-names: Halim
+    affiliation: "Information Systems and Technology, Universitas OSO, Pontianak, Indonesia"
+    orcid: "https://orcid.org/0009-0008-4388-1174"
+keywords:
+  - electrocardiogram
+  - emergency department
+  - convolutional neural network
+  - ensemble learning
+  - risk prediction
+repository-code: "https://github.com/agustinohalim/ed-ecg-machine-reading"

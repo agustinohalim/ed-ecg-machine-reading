@@ -1,0 +1,20 @@
+gabungan 2236; macetrop 1907; kematian 430; keduanya 101
+== 1. Komponen, prediksi sasaran gabungan
+  macetrop AUROC M1g 0.812 M4 0.826 M5 0.838
+  macetrop M4 − M1g: +0.014 [-0.002; +0.031] CI90 [+0.001; +0.028]
+  macetrop M5 − M1g: +0.026 [+0.019; +0.036] CI90 [+0.020; +0.034]
+  kematian AUROC M1g 0.809 M4 0.800 M5 0.826
+  kematian M4 − M1g: -0.009 [-0.025; +0.011] CI90 [-0.022; +0.009]
+  kematian M5 − M1g: +0.017 [+0.010; +0.026] CI90 [+0.011; +0.025]
+== 2. Kunjungan pertama
+  pertama M4 − M1g: +0.002 [-0.009; +0.011] CI90 [-0.007; +0.010]
+  pertama M5 − M1g: +0.021 [+0.016; +0.025] CI90 [+0.017; +0.025]
+== 3. M2, M3 lawan M1g, pasien saja
+  M2 − M1g -0.012 [-0.025; +0.001] CI90 [-0.023; -0.002]
+  M3 − M1g +0.016 [+0.012; +0.021] CI90 [+0.012; +0.020]
+== 4. M4 − M1g, net benefit per 1.000 dan AUPRC, pasien saja
+  ambang 0.02: -1.0 per 1.000 [-1.626; -0.448]
+  ambang 0.05: +1.2 per 1.000 [-0.164; +3.094]
+  ambang 0.10: +3.0 per 1.000 [+1.143; +5.685]
+  ambang 0.20: +0.6 per 1.000 [-0.533; +1.608]
+  AUPRC +0.033 [+0.016; +0.054]

@@ -1,0 +1,43 @@
+== 1. Selisih AUROC dengan variasi pelatihan (pasien + benih ditarik ulang)
+  M4 − M1g: ansambel +0.010; CI95 pasien saja [-0.002; +0.023]; pasien + benih [-0.011; +0.019], CI90 [-0.009; +0.016] -> di dalam ±0.02; satu jaringan -0.017 CI95 [-0.033; +0.000] CI90 [-0.031; -0.002]
+  M5 − M1g: ansambel +0.025; CI95 pasien saja [+0.019; +0.032]; pasien + benih [+0.017; +0.031], CI90 [+0.018; +0.030] -> tidak di dalam ±0.02; satu jaringan +0.020 CI95 [+0.013; +0.028] CI90 [+0.014; +0.026]
+  M2 − M1g: ansambel -0.012; CI95 pasien saja [-0.024; +0.001]; pasien + benih [-0.033; -0.004], CI90 [-0.031; -0.006] -> tidak di dalam ±0.02; satu jaringan -0.039 CI95 [-0.054; -0.018] CI90 [-0.052; -0.023]
+  M4 − M2: ansambel +0.022; CI95 pasien saja [+0.015; +0.028]; pasien + benih [+0.012; +0.033], CI90 [+0.014; +0.030] -> tidak di dalam ±0.02; satu jaringan +0.021 CI95 [+0.004; +0.046] CI90 [+0.006; +0.040]
+  M4 − M1mg: ansambel +0.021; CI95 pasien saja [+0.008; +0.035]; pasien + benih [-0.001; +0.031], CI90 [+0.001; +0.028] -> tidak di dalam ±0.02; satu jaringan -0.006 CI95 [-0.023; +0.013] CI90 [-0.021; +0.009]
+
+== 2. O/E per subkelompok, satu jaringan (rerata [min; maks] lima benih) lawan ansambel
+  jk   pria      M2 1.20 [1.03; 1.29] (ansambel 1.19)  M4 1.20 [1.08; 1.31] (ansambel 1.19)  M5 1.07 [1.06; 1.08] (ansambel 1.07)
+  jk   wanita    M2 0.79 [0.73; 0.83] (ansambel 0.79)  M4 0.79 [0.71; 0.85] (ansambel 0.79)  M5 0.91 [0.90; 0.92] (ansambel 0.91)
+  ras  black     M2 1.09 [0.94; 1.19] (ansambel 1.08)  M4 1.12 [1.05; 1.21] (ansambel 1.12)  M5 1.15 [1.13; 1.18] (ansambel 1.15)
+  ras  hispanic  M2 0.56 [0.52; 0.59] (ansambel 0.56)  M4 0.58 [0.51; 0.63] (ansambel 0.58)  M5 0.63 [0.63; 0.64] (ansambel 0.63)
+  ras  other     M2 1.04 [0.92; 1.11] (ansambel 1.03)  M4 1.03 [0.92; 1.10] (ansambel 1.03)  M5 1.04 [1.03; 1.05] (ansambel 1.04)
+  ras  white     M2 1.07 [0.95; 1.15] (ansambel 1.07)  M4 1.05 [0.92; 1.13] (ansambel 1.04)  M5 1.02 [1.02; 1.03] (ansambel 1.02)
+  usia <65       M2 0.85 [0.77; 0.91] (ansambel 0.85)  M4 0.87 [0.79; 0.94] (ansambel 0.87)  M5 0.99 [0.99; 1.00] (ansambel 0.99)
+  usia >=65      M2 1.29 [1.11; 1.41] (ansambel 1.28)  M4 1.25 [1.08; 1.35] (ansambel 1.24)  M5 1.01 [1.00; 1.02] (ansambel 1.01)
+
+== 3. Kontrol penggabungan: M1g + M1l (dua model bacaan)
+  M1g+M1l AUROC 0.813; − M1g +0.000 [-0.002; +0.002]; M5 − (M1g+M1l) +0.025 [+0.019; +0.031]
+
+== 4. M5 − M1g pada analisis kepekaan; net benefit per 1.000 kunjungan
+  diuji ≤ 10 hari: M4 − M1g +0.013 [-0.001; +0.028]
+  diuji ≤ 10 hari: M5 − M1g +0.023 [+0.016; +0.030]
+  tanpa pasien pencilan: M4 − M1g +0.004 [-0.004; +0.012]
+  tanpa pasien pencilan: M5 − M1g +0.022 [+0.018; +0.025]
+  ambang 0.02: M5 − M1g +0.5 per 1.000 [+0.1; +1.0]
+  ambang 0.05: M5 − M1g +3.0 per 1.000 [+1.9; +4.5]
+  ambang 0.10: M5 − M1g +3.3 per 1.000 [+2.3; +4.5]
+  ambang 0.20: M5 − M1g +1.6 per 1.000 [+0.8; +2.4]
+
+== 5. Kunjungan pertama tiap pasien
+  n 30933, kejadian 1473
+  M0 AUROC 0.743
+  M1g AUROC 0.827
+  M2 AUROC 0.802
+  M4 AUROC 0.829
+  M5 AUROC 0.848
+  M1g − M0: +0.084 [+0.074; +0.093]
+  M4 − M1g: +0.002 [-0.007; +0.011]
+  M5 − M1g: +0.021 [+0.016; +0.025]
+
+== 6. M4 − M1mg (hanya ukuran mesin)
+  +0.021 [+0.008; +0.035]

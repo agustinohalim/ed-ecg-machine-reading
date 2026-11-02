@@ -1,0 +1,18 @@
+kunjungan 43451  pasien 30933  EKG tanpa gelombang 0
+menit EKG sesudah tiba: median 23.5, P95 195.6
+usia 49.8 ± 16.4; pria 0.434
+macetrop_pos_or_death_030: 2236 kejadian (0.0515)
+death_030_day: 430 kejadian (0.0099)
+diuji (stress/cath ≤ 10 hari): 4092
+
+== macetrop_pos_or_death_030
+model AUROC (SD benih)   CI95            AUPRC (SD)       CI95            Brier   slope
+M0    0.705 (0.001)    [0.668, 0.734]  0.109 (0.001)  [0.101, 0.118]  0.0475  0.98
+M1l   0.797 (0.000)    [0.788, 0.806]  0.184 (0.000)  [0.171, 0.201]  0.0453  0.97
+M1g   0.807 (0.002)    [0.803, 0.822]  0.192 (0.003)  [0.183, 0.220]  0.0446  1.01
+
+== death_030_day
+model AUROC (SD benih)   CI95            AUPRC (SD)       CI95            Brier   slope
+M0    0.749 (0.000)    [0.727, 0.772]  0.028 (0.000)  [0.023, 0.034]  0.0097  0.96
+M1l   0.807 (0.002)    [0.786, 0.829]  0.042 (0.001)  [0.035, 0.055]  0.0097  0.95
+M1g   0.814 (0.003)    [0.806, 0.844]  0.042 (0.002)  [0.039, 0.057]  0.0096  0.99

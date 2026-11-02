@@ -1,0 +1,89 @@
+== 1. M1m: usia + jenis kelamin + 8 ukuran mesin (tanpa bendera has_*)
+macetrop_pos_or_death_030 M1ml: AUROC per benih 0.769
+macetrop_pos_or_death_030 M1mg: AUROC per benih 0.796
+macetrop_pos_or_death_030
+  M1ml     AUROC 0.770 [0.756; 0.782]
+  M1mg     AUROC 0.802 [0.791; 0.811]
+  M0       AUROC 0.705 [0.667; 0.735]
+  M1g      AUROC 0.813 [0.803; 0.822]
+  M1mg − M0: +0.097 [+0.071; +0.131]
+  M1g − M1mg: +0.011 [+0.008; +0.014]
+death_030_day M1ml: AUROC per benih 0.809
+death_030_day M1mg: AUROC per benih 0.808
+death_030_day
+  M1ml     AUROC 0.809 [0.787; 0.829]
+  M1mg     AUROC 0.821 [0.800; 0.841]
+  M0       AUROC 0.749 [0.724; 0.770]
+  M1g      AUROC 0.826 [0.806; 0.846]
+  M1mg − M0: +0.072 [+0.053; +0.091]
+  M1g − M1mg: +0.005 [+0.001; +0.009]
+
+== 2. Satu jaringan lawan ansambel (macetrop_pos_or_death_030)
+  M2 benih 0: AUROC 0.774; − M1g benih 0 -0.037 [-0.048; -0.024] (200 ulangan); intercept +0.06 slope 1.06
+  M2 benih 1: AUROC 0.760; − M1g benih 1 -0.046 [-0.058; -0.035] (200 ulangan); intercept -0.00 slope 0.93
+  M2 benih 2: AUROC 0.764; − M1g benih 2 -0.040 [-0.056; -0.016] (200 ulangan); intercept +0.06 slope 0.98
+  M2 benih 3: AUROC 0.774; − M1g benih 3 -0.032 [-0.050; -0.005] (200 ulangan); intercept -0.14 slope 0.89
+  M2 benih 4: AUROC 0.770; − M1g benih 4 -0.038 [-0.048; -0.027] (200 ulangan); intercept -0.02 slope 0.93
+  M4 benih 0: AUROC 0.789; − M1g benih 0 -0.021 [-0.035; -0.006] (200 ulangan); intercept +0.04 slope 1.05
+  M4 benih 1: AUROC 0.793; − M1g benih 1 -0.014 [-0.028; +0.003] (200 ulangan); intercept -0.01 slope 0.92
+  M4 benih 2: AUROC 0.786; − M1g benih 2 -0.018 [-0.030; -0.004] (200 ulangan); intercept +0.08 slope 0.95
+  M4 benih 3: AUROC 0.784; − M1g benih 3 -0.022 [-0.038; -0.003] (200 ulangan); intercept -0.13 slope 0.89
+  M4 benih 4: AUROC 0.797; − M1g benih 4 -0.011 [-0.024; +0.003] (200 ulangan); intercept -0.02 slope 0.95
+
+== 3. Kalibrasi ansambel: intercept (offset logit; 0 = rata-rata tepat) dan slope
+  M0    intercept +0.000  slope 0.98  rerata prediksi 0.0515 (teramati 0.0515)
+  M1g   intercept +0.040  slope 1.01  rerata prediksi 0.0497 (teramati 0.0515)
+  M1mg  intercept +0.034  slope 1.01  rerata prediksi 0.0499 (teramati 0.0515)
+  M2    intercept -0.008  slope 1.32  rerata prediksi 0.0518 (teramati 0.0515)
+  M3    intercept +0.000  slope 1.08  rerata prediksi 0.0515 (teramati 0.0515)
+  M4    intercept -0.008  slope 1.32  rerata prediksi 0.0518 (teramati 0.0515)
+  M5    intercept +0.000  slope 1.11  rerata prediksi 0.0515 (teramati 0.0515)
+
+== 4. O/E per subkelompok, CI95 bootstrap pasien
+  faktor     nilai                      M1g                    M2                    M3                    M4                    M5
+  jk         pria         1.08 [0.97; 1.22]     1.19 [1.08; 1.34]     1.06 [0.95; 1.19]     1.19 [1.08; 1.33]     1.07 [0.97; 1.20]
+  jk         wanita       0.97 [0.90; 1.04]     0.79 [0.73; 0.85]     0.92 [0.85; 0.99]     0.79 [0.73; 0.85]     0.91 [0.84; 0.98]
+  ras        black        1.17 [0.93; 1.51]     1.08 [0.86; 1.38]     1.14 [0.91; 1.45]     1.12 [0.90; 1.41]     1.15 [0.93; 1.45]
+  ras        hispanic     0.64 [0.54; 0.75]     0.56 [0.47; 0.66]     0.63 [0.53; 0.74]     0.58 [0.48; 0.67]     0.63 [0.53; 0.74]
+  ras        other        1.06 [0.91; 1.21]     1.03 [0.89; 1.18]     1.04 [0.89; 1.19]     1.03 [0.89; 1.18]     1.04 [0.90; 1.18]
+  ras        white        1.07 [1.01; 1.13]     1.07 [1.01; 1.13]     1.03 [0.97; 1.09]     1.04 [0.99; 1.11]     1.02 [0.96; 1.08]
+  usia       <65          1.04 [0.93; 1.18]     0.85 [0.76; 0.96]     1.00 [0.89; 1.13]     0.87 [0.77; 0.98]     0.99 [0.89; 1.12]
+  usia       >=65         1.03 [0.96; 1.09]     1.28 [1.20; 1.37]     1.00 [0.94; 1.07]     1.24 [1.16; 1.32]     1.01 [0.94; 1.08]
+  pendapatan menengah     1.06 [0.99; 1.14]     1.05 [0.97; 1.12]     1.03 [0.96; 1.10]     1.03 [0.96; 1.10]     1.02 [0.95; 1.09]
+  pendapatan rendah       1.06 [0.88; 1.31]     0.97 [0.80; 1.19]     1.03 [0.85; 1.26]     0.98 [0.82; 1.20]     1.03 [0.86; 1.25]
+  pendapatan tinggi       0.98 [0.90; 1.07]     0.96 [0.88; 1.05]     0.95 [0.87; 1.04]     0.97 [0.89; 1.05]     0.95 [0.88; 1.04]
+
+== 5. Hanya kunjungan diuji ≤ 10 hari
+  n 4092, kejadian 1097
+  M0       AUROC 0.623 [0.602; 0.643]
+  M1g      AUROC 0.747 [0.729; 0.763]
+  M1mg     AUROC 0.721 [0.704; 0.739]
+  M2       AUROC 0.734 [0.715; 0.752]
+  M3       AUROC 0.759 [0.742; 0.776]
+  M4       AUROC 0.760 [0.743; 0.776]
+  M5       AUROC 0.769 [0.753; 0.785]
+  M1g − M0: +0.123 [+0.104; +0.144]
+  M2 − M1g: -0.013 [-0.028; +0.002]
+  M3 − M1g: +0.012 [+0.007; +0.018]
+  M4 − M1g: +0.013 [-0.001; +0.026]
+
+== 6. Tanpa pasien dengan kejadian terbanyak
+  dikeluarkan: 1 pasien, 86 kunjungan, 77 kejadian; berikutnya [np.int64(30), np.int64(20), np.int64(11)] kejadian
+  M0       AUROC 0.723 [0.708; 0.737]
+  M1g      AUROC 0.815 [0.806; 0.824]
+  M1mg     AUROC 0.804 [0.794; 0.813]
+  M2       AUROC 0.797 [0.786; 0.806]
+  M3       AUROC 0.828 [0.820; 0.837]
+  M4       AUROC 0.818 [0.809; 0.828]
+  M5       AUROC 0.836 [0.828; 0.845]
+  M1g − M0: +0.092 [+0.080; +0.105]
+  M2 − M1g: -0.018 [-0.027; -0.009]
+  M3 − M1g: +0.014 [+0.011; +0.017]
+  M4 − M1g: +0.004 [-0.004; +0.012]
+
+== 7. Net benefit = TP/n − FP/n · pt/(1−pt); bandingkan dengan "uji semua"
+  ambang   semua      M0     M1g    M1mg      M2      M3      M4      M5
+    0.02  0.0321  0.0324  0.0376  0.0372  0.0354  0.0380  0.0366  0.0381
+    0.05  0.0015  0.0164  0.0246  0.0237  0.0240  0.0265  0.0258  0.0276
+    0.10 -0.0539  0.0033  0.0133  0.0115  0.0136  0.0152  0.0163  0.0166
+    0.20 -0.1857  0.0000  0.0041  0.0032  0.0031  0.0049  0.0047  0.0057

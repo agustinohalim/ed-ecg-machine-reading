@@ -1,0 +1,16 @@
+== 1. Kurva ukuran ansambel, semua kunjungan
+  k= 1: M4 0.789 M1g 0.808 selisih -0.018 [-0.040; +0.003] CI90 [-0.037; -0.001]; lawan k=1 +0.000 [+0.000; +0.000] CI90 [+0.000; +0.000]
+  k= 2: M4 0.808 M1g 0.811 selisih -0.003 [-0.019; +0.015] CI90 [-0.016; +0.013]; lawan k=1 +0.016 [+0.005; +0.029] CI90 [+0.006; +0.027]
+  k= 3: M4 0.816 M1g 0.812 selisih +0.004 [-0.011; +0.020] CI90 [-0.008; +0.018]; lawan k=1 +0.023 [+0.010; +0.038] CI90 [+0.012; +0.036]
+  k= 5: M4 0.823 M1g 0.813 selisih +0.010 [-0.003; +0.025] CI90 [-0.002; +0.023]; lawan k=1 +0.028 [+0.016; +0.044] CI90 [+0.018; +0.043]
+  k= 7: M4 0.826 M1g 0.814 selisih +0.013 [-0.000; +0.027] CI90 [+0.001; +0.025]; lawan k=1 +0.031 [+0.018; +0.048] CI90 [+0.019; +0.045]
+  k=10: M4 0.829 M1g 0.814 selisih +0.015 [+0.002; +0.029] CI90 [+0.004; +0.027]; lawan k=1 +0.033 [+0.019; +0.050] CI90 [+0.021; +0.048]
+  k=15: M4 0.831 M1g 0.814 selisih +0.017 [+0.004; +0.030] CI90 [+0.006; +0.028]; lawan k=1 +0.035 [+0.021; +0.052] CI90 [+0.023; +0.050]
+  k=25: M4 0.832 M1g 0.814 selisih +0.018 [+0.006; +0.031] CI90 [+0.008; +0.029]; lawan k=1 +0.036 [+0.023; +0.054] CI90 [+0.024; +0.051]
+== 2. Kontras ansambel lima − satu jaringan
+  tanpa pasien: +0.029 CI95 [+0.014; +0.046] CI90 [+0.016; +0.043] (ansambel +0.004, satu -0.025)
+  kunjungan pertama: +0.030 CI95 [+0.015; +0.046] CI90 [+0.016; +0.044] (ansambel +0.002, satu -0.028)
+== 3. Kematian, model dipasang ulang, AUROC gabungan lawan di dalam lipatan, benih 0–4
+  M1g: gabungan 0.814, di dalam lipatan 0.817
+  M4: gabungan 0.769, di dalam lipatan 0.774
+  M4 − M1g satu jaringan: gabungan -0.044, di dalam lipatan -0.042
