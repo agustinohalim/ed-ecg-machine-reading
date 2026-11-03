@@ -6,6 +6,7 @@ berubah antarputaran hanya lewat pembagian lipatan, seperti di ED-BWH.
 
   ciri 'report' = delapan ukuran global + pernyataan >= 1 % + usia + jenis kelamin (ciri_report.csv)
   ciri 'semua'  = semua kolom 12SL + usia + jenis kelamin (ciri_12sl_semua.csv), analisis kepekaan
+  ciri 'unig8', 'unig_semua', 'sl8' = berkas dari 22_ptbxl_unig.py (analisis pasca-hasil, Hasil bagian C)
 
 Pakai: python 20_ptbxl_report.py <sasaran> <jumlah putaran> [report|semua] > ptbxl_report_<sasaran>.log
 """
@@ -25,7 +26,8 @@ def main():
     s, n = sys.argv[1], int(sys.argv[2])
     jenis = sys.argv[3] if len(sys.argv) > 3 else 'report'
     d = pd.read_csv(os.path.join(T, 'kohort.csv'))
-    X = pd.read_csv(os.path.join(T, 'ciri_report.csv' if jenis == 'report' else 'ciri_12sl_semua.csv'))
+    berkas = {'report': 'ciri_report.csv', 'semua': 'ciri_12sl_semua.csv'}.get(jenis, f'ciri_{jenis}.csv')
+    X = pd.read_csv(os.path.join(T, berkas))
     assert (X.ecg_id.values == d.ecg_id.values).all()
     X = X.drop(columns='ecg_id').values.astype(float)
     y, g = d[s].values.astype(int), d['patient_id'].values

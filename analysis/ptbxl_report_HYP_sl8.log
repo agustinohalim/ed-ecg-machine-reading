@@ -1,0 +1,12 @@
+HYP sl8: 21388 rekaman, 2649 positif, 10 ciri
+  benih 0: AUROC 0.775
+  benih 1: AUROC 0.775
+  benih 2: AUROC 0.776
+  benih 3: AUROC 0.776
+  benih 4: AUROC 0.775
+  benih 5: AUROC 0.774
+  benih 6: AUROC 0.775
+  benih 7: AUROC 0.776
+  benih 8: AUROC 0.778
+  benih 9: AUROC 0.775
+rerata AUROC 0.776 (SD 0.001); ansambel 10: 0.782

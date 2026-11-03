@@ -1,0 +1,12 @@
+STTC sl8: 21388 rekaman, 5235 positif, 10 ciri
+  benih 0: AUROC 0.836
+  benih 1: AUROC 0.835
+  benih 2: AUROC 0.835
+  benih 3: AUROC 0.837
+  benih 4: AUROC 0.836
+  benih 5: AUROC 0.837
+  benih 6: AUROC 0.835
+  benih 7: AUROC 0.836
+  benih 8: AUROC 0.836
+  benih 9: AUROC 0.837
+rerata AUROC 0.836 (SD 0.001); ansambel 10: 0.840

@@ -46,6 +46,10 @@ Pre-registered on 2 November 2026; the text, unchanged, is `prapendaftaran_ptbxl
   `18_ptbxl_siapkan.py` builds the cohort, Report features and waveforms; `19_ptbxl_cnn.py <target> <runs>` trains
   CNN-12 (GPU environment); `20_ptbxl_report.py <target> <runs> [report|semua]` fits Report; `21_ptbxl_kurva.py`
   draws the ensemble-size curve. Targets MI (25 runs), STTC, CD, HYP (10 runs each); `semua` = all 784 12SL columns.
+- Post hoc, not in the pre-registration (added 3 November 2026): `22_ptbxl_unig.py` writes Report features from a
+  second manufacturer's program, Uni-G (University of Glasgow), in PTB-XL+: `unig8` (eight global measurements, age,
+  sex), `unig_semua` (all 748 Uni-G columns, age, sex), and the same-vendor anchor `sl8` (eight 12SL global
+  measurements, age, sex). Run `20_ptbxl_report.py <target> 10 <set>` then `21_ptbxl_kurva.py <target> 10 <set>`.
 - Audit: `audit_pustaka/` holds the PubMed query, all PMIDs, the seeded random order, the screening log, the coding
   sheet for 60 studies, and `17_audit_ringkas.py` (Wilson intervals) with its log. Bibliographic data only.
 

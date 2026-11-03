@@ -1,0 +1,12 @@
+MI sl8: 21388 rekaman, 5469 positif, 10 ciri
+  benih 0: AUROC 0.814
+  benih 1: AUROC 0.813
+  benih 2: AUROC 0.812
+  benih 3: AUROC 0.814
+  benih 4: AUROC 0.814
+  benih 5: AUROC 0.814
+  benih 6: AUROC 0.815
+  benih 7: AUROC 0.814
+  benih 8: AUROC 0.813
+  benih 9: AUROC 0.814
+rerata AUROC 0.814 (SD 0.001); ansambel 10: 0.817

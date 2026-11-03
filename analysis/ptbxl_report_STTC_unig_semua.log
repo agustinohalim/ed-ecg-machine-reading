@@ -1,0 +1,12 @@
+STTC unig_semua: 21388 rekaman, 5235 positif, 750 ciri
+  benih 0: AUROC 0.938
+  benih 1: AUROC 0.938
+  benih 2: AUROC 0.938
+  benih 3: AUROC 0.938
+  benih 4: AUROC 0.937
+  benih 5: AUROC 0.938
+  benih 6: AUROC 0.937
+  benih 7: AUROC 0.937
+  benih 8: AUROC 0.938
+  benih 9: AUROC 0.938
+rerata AUROC 0.938 (SD 0.000); ansambel 10: 0.940
