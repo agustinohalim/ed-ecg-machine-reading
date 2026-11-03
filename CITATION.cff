@@ -3,7 +3,7 @@ message: "If you use this software, please cite it as below."
 title: "ed-ecg-machine-reading: averaged training runs and a 12-lead CNN against the stored emergency ECG report"
 type: software
 license: MIT
-version: 1.1.0
+version: 1.2.0
 date-released: 2026-11-03
 authors:
   - given-names: Agustino
