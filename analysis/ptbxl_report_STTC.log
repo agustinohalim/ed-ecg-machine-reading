@@ -1,0 +1,12 @@
+STTC report: 21388 rekaman, 5235 positif, 64 ciri
+  benih 0: AUROC 0.893
+  benih 1: AUROC 0.894
+  benih 2: AUROC 0.893
+  benih 3: AUROC 0.893
+  benih 4: AUROC 0.892
+  benih 5: AUROC 0.893
+  benih 6: AUROC 0.891
+  benih 7: AUROC 0.893
+  benih 8: AUROC 0.893
+  benih 9: AUROC 0.893
+rerata AUROC 0.893 (SD 0.001); ansambel 10: 0.895

@@ -1,0 +1,20 @@
+C:\Users\agust\Documents\UNOSO\Riset\EKG\Uji_EDBWH\18_ptbxl_siapkan.py:70: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  S.insert(0, 'ecg_id', d.ecg_id.values)
+C:\Users\agust\Documents\UNOSO\Riset\EKG\Uji_EDBWH\18_ptbxl_siapkan.py:71: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  S['age'], S['pria'] = d.age.values, d.pria.values
+PTB-XL 21799 rekaman; 12SL ciri 21799, pernyataan 21799
+kohort: 21388 rekaman, 18617 pasien (tanpa superkelas 411)
+  MI: 5469 positif (25.6 %)
+  STTC: 5235 positif (24.5 %)
+  CD: 4898 positif (22.9 %)
+  HYP: 2649 positif (12.4 %)
+  NORM: 9514 positif (44.5 %)
+pernyataan 12SL: 160 jenis, 54 berprevalensi >= 1 %: ['$SWITH', '2ST', 'AB', 'ABER', 'ABR', 'AFB', 'AFIB', 'ALT', 'AMI', 'ASMI', 'AU', 'BORDE', 'COMMA', 'CORNPROD', 'CRO', 'FAV', 'FREQ', 'IMI', 'IRBBB', 'IT', 'LAD3', 'LAE', 'LBBB', 'LNGQT', 'LOWV', 'LPAREN', 'LT', 'LVH2', 'LVH3', 'MSAR', 'NML', 'NSR', 'NST', 'NSTT', 'NT', 'OCC', 'PAC', 'PO', 'PVC', 'QRSV', 'QRSW-2ST', 'RAD', 'RAVL', 'RBBB', 'ROMESTES', 'RPAREN', 'RVR', 'SAR', 'SBRAD', 'SMI', 'SOKOLYON', 'SRTH', 'ST&', 'STACH']
+nilai hilang ukuran global: P_AxisFront_Global 8.1 %, R_AxisFrontal_Global 0.0 %, T_AxisFront_Global 0.0 %, PR_Int_Global 8.1 %, QRS_Dur_Global 0.0 %, QT_Int_Global 0.0 %, QT_IntCorr_Global 0.0 %, HR_Ventr_Global 0.0 %
+ciri Report: 64 kolom; ciri semua 12SL: 784 kolom
+  gelombang 0/21388, 0 d
+  gelombang 5000/21388, 207 d
+  gelombang 10000/21388, 397 d
+  gelombang 15000/21388, 576 d
+  gelombang 20000/21388, 769 d
+gelombang selesai: 21388 × 12 × 5000, nilai NaN 0, 824 d

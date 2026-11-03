@@ -1,0 +1,27 @@
+MI report: 21388 rekaman, 5469 positif, 64 ciri
+  benih 0: AUROC 0.897
+  benih 1: AUROC 0.897
+  benih 2: AUROC 0.897
+  benih 3: AUROC 0.896
+  benih 4: AUROC 0.897
+  benih 5: AUROC 0.897
+  benih 6: AUROC 0.897
+  benih 7: AUROC 0.897
+  benih 8: AUROC 0.898
+  benih 9: AUROC 0.897
+  benih 10: AUROC 0.897
+  benih 11: AUROC 0.897
+  benih 12: AUROC 0.896
+  benih 13: AUROC 0.897
+  benih 14: AUROC 0.896
+  benih 15: AUROC 0.897
+  benih 16: AUROC 0.896
+  benih 17: AUROC 0.897
+  benih 18: AUROC 0.897
+  benih 19: AUROC 0.897
+  benih 20: AUROC 0.896
+  benih 21: AUROC 0.897
+  benih 22: AUROC 0.897
+  benih 23: AUROC 0.897
+  benih 24: AUROC 0.897
+rerata AUROC 0.897 (SD 0.001); ansambel 25: 0.900

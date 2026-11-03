@@ -1,0 +1,61 @@
+STTC: 21388 rekaman, 5235 positif; gelombang (21388, 12, 5000); alat cuda
+  benih 0 lipat 0: AUROC 0.931 (153 d)
+  benih 0 lipat 1: AUROC 0.911 (135 d)
+  benih 0 lipat 2: AUROC 0.924 (137 d)
+  benih 0 lipat 3: AUROC 0.919 (1419 d)
+  benih 0 lipat 4: AUROC 0.929 (160 d)
+  benih 0: AUROC 0.923
+  benih 1 lipat 0: AUROC 0.926 (157 d)
+  benih 1 lipat 1: AUROC 0.923 (159 d)
+  benih 1 lipat 2: AUROC 0.922 (149 d)
+  benih 1 lipat 3: AUROC 0.932 (145 d)
+  benih 1 lipat 4: AUROC 0.912 (146 d)
+  benih 1: AUROC 0.923
+  benih 2 lipat 0: AUROC 0.924 (150 d)
+  benih 2 lipat 1: AUROC 0.927 (145 d)
+  benih 2 lipat 2: AUROC 0.923 (141 d)
+  benih 2 lipat 3: AUROC 0.928 (151 d)
+  benih 2 lipat 4: AUROC 0.921 (134 d)
+  benih 2: AUROC 0.924
+  benih 3 lipat 0: AUROC 0.922 (132 d)
+  benih 3 lipat 1: AUROC 0.927 (134 d)
+  benih 3 lipat 2: AUROC 0.931 (127 d)
+  benih 3 lipat 3: AUROC 0.918 (137 d)
+  benih 3 lipat 4: AUROC 0.921 (128 d)
+  benih 3: AUROC 0.924
+  benih 4 lipat 0: AUROC 0.931 (116 d)
+  benih 4 lipat 1: AUROC 0.922 (124 d)
+  benih 4 lipat 2: AUROC 0.929 (133 d)
+  benih 4 lipat 3: AUROC 0.915 (121 d)
+  benih 4 lipat 4: AUROC 0.917 (123 d)
+  benih 4: AUROC 0.923
+  benih 5 lipat 0: AUROC 0.920 (123 d)
+  benih 5 lipat 1: AUROC 0.928 (120 d)
+  benih 5 lipat 2: AUROC 0.924 (122 d)
+  benih 5 lipat 3: AUROC 0.923 (129 d)
+  benih 5 lipat 4: AUROC 0.930 (120 d)
+  benih 5: AUROC 0.925
+  benih 6 lipat 0: AUROC 0.924 (130 d)
+  benih 6 lipat 1: AUROC 0.924 (129 d)
+  benih 6 lipat 2: AUROC 0.932 (125 d)
+  benih 6 lipat 3: AUROC 0.921 (122 d)
+  benih 6 lipat 4: AUROC 0.921 (122 d)
+  benih 6: AUROC 0.924
+  benih 7 lipat 0: AUROC 0.920 (120 d)
+  benih 7 lipat 1: AUROC 0.926 (122 d)
+  benih 7 lipat 2: AUROC 0.928 (123 d)
+  benih 7 lipat 3: AUROC 0.920 (112 d)
+  benih 7 lipat 4: AUROC 0.928 (121 d)
+  benih 7: AUROC 0.924
+  benih 8 lipat 0: AUROC 0.929 (132 d)
+  benih 8 lipat 1: AUROC 0.919 (123 d)
+  benih 8 lipat 2: AUROC 0.925 (129 d)
+  benih 8 lipat 3: AUROC 0.931 (128 d)
+  benih 8 lipat 4: AUROC 0.914 (128 d)
+  benih 8: AUROC 0.923
+  benih 9 lipat 0: AUROC 0.926 (140 d)
+  benih 9 lipat 1: AUROC 0.920 (108 d)
+  benih 9 lipat 2: AUROC 0.924 (108 d)
+  benih 9 lipat 3: AUROC 0.925 (120 d)
+  benih 9 lipat 4: AUROC 0.915 (128 d)
+  benih 9: AUROC 0.921

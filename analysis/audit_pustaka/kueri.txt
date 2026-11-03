@@ -1,0 +1,9 @@
+Kueri PubMed (audit pustaka, prapendaftaran B)
+Dijalankan: 2026-11-02T19:08:01 (waktu lokal), 2026-11-02
+URL esearch:
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28electrocardiogra%2A%5Btiab%5D+OR+ECG%5Btiab%5D%29+AND+%28%22deep+learning%22%5Btiab%5D+OR+%22convolutional+neural+network%22%5Btiab%5D+OR+%22neural+network%22%5Btiab%5D%29+AND+English%5Blang%5D+AND+%22journal+article%22%5Bpt%5D&datetype=pdat&mindate=2023%2F01%2F01&maxdate=2026%2F10%2F31&retmax=10000&retmode=json
+Terjemahan kueri oleh PubMed:
+("electrocardiogra*"[Title/Abstract] OR "ECG"[Title/Abstract]) AND ("deep learning"[Title/Abstract] OR "convolutional neural network"[Title/Abstract] OR "neural network"[Title/Abstract]) AND "English"[Language] AND "journal article"[Publication Type] AND 2023/01/01:2026/10/31[Date - Publication]
+Jumlah total (count): 2157
+PMID diterima: 2157
+Pengacakan: PMID diurutkan naik numerik, lalu numpy.random.default_rng(20261104).permutation (numpy 2.5.2)

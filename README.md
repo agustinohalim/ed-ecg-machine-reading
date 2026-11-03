@@ -33,8 +33,21 @@ folder. Scripts run in numerical order; each docstring gives its usage and the l
 M4 = CNN-12, M5 = Report+CNN-12. Docstrings mention working notes (`Artikel_EDBWH_Rencana.md`,
 `Hasil_Uji_EDBWH.md`) that are not part of this repository.
 
-The ensemble-size curve (Figure 3) is `15_ukuran_ansambel.py`, drawn by `16_gambar_kurva.py`; the paired
-contrasts are `14_kontras.py`.
+The ensemble-size curve (Figure 2) is `15_ukuran_ansambel.py`, drawn by `16_gambar_kurva.py`; the paired
+contrasts are `14_kontras.py`. The calibration plot and the full subgroup tables are in `gambar/` and
+`subkelompok.log`.
+
+## Replication on PTB-XL+ and literature audit
+
+Pre-registered on 2 November 2026; the text, unchanged, is `prapendaftaran_ptbxl_audit.md` (Indonesian).
+
+- Replication: PTB-XL 1.0.3 and PTB-XL+ 1.0.1 from PhysioNet (open, CC BY 4.0). Set `PTBXL_DATA` to a folder
+  holding `xl/` and `plus/` (default `C:/Data/PhysioNet/ptbxl`); derived arrays go to `turunan/` under it.
+  `18_ptbxl_siapkan.py` builds the cohort, Report features and waveforms; `19_ptbxl_cnn.py <target> <runs>` trains
+  CNN-12 (GPU environment); `20_ptbxl_report.py <target> <runs> [report|semua]` fits Report; `21_ptbxl_kurva.py`
+  draws the ensemble-size curve. Targets MI (25 runs), STTC, CD, HYP (10 runs each); `semua` = all 784 12SL columns.
+- Audit: `audit_pustaka/` holds the PubMed query, all PMIDs, the seeded random order, the screening log, the coding
+  sheet for 60 studies, and `17_audit_ringkas.py` (Wilson intervals) with its log. Bibliographic data only.
 
 ## Licence
 

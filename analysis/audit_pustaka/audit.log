@@ -1,0 +1,12 @@
+Studi terkode: 60
+
+Jumlah putaran tidak dinyatakan (luaran utama)        52/60  =  86.7%  (Wilson 95%:  75.8% -  93.1%)
+Variasi antarputaran dilaporkan                        6/60  =  10.0%  (Wilson 95%:   4.7% -  20.1%)
+Ansambel putaran dipakai (ya)                          1/60  =   1.7%  (Wilson 95%:   0.3% -   8.9%)
+  ansambel putaran tidak jelas (unclear)               6/60  =  10.0%  (Wilson 95%:   4.7% -  20.1%)
+Ada pembanding non-deep-learning                      20/60  =  33.3%  (Wilson 95%:  22.7% -  45.9%)
+Di antara yang ada pembanding non-DL: putaran tak dinyatakan  18/20  =  90.0%  (Wilson 95%:  69.9% -  97.2%)
+Kode tersedia (tambahan, deskriptif)                  14/60  =  23.3%  (Wilson 95%:  14.4% -  35.4%)
+
+Jumlah putaran yang dinyatakan: PMID 42421084=4, PMID 39477343=10, PMID 39193485=5, PMID 42510400=10, PMID 42882289=5, PMID 42879462=5, PMID 38732812=5, PMID 41271946=5
+Jenis selang kepercayaan (kategori utama): none=31, bootstrap=17, method not stated=5, other=4, DeLong=3

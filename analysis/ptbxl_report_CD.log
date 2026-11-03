@@ -1,0 +1,12 @@
+CD report: 21388 rekaman, 4898 positif, 64 ciri
+  benih 0: AUROC 0.905
+  benih 1: AUROC 0.906
+  benih 2: AUROC 0.905
+  benih 3: AUROC 0.904
+  benih 4: AUROC 0.906
+  benih 5: AUROC 0.905
+  benih 6: AUROC 0.906
+  benih 7: AUROC 0.907
+  benih 8: AUROC 0.905
+  benih 9: AUROC 0.906
+rerata AUROC 0.905 (SD 0.001); ansambel 10: 0.908

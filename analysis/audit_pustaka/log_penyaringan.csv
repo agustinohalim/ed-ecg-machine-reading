@@ -1,0 +1,266 @@
+pmid,order,status,reason
+42351506,1,coded,included; full text from PMC PMC13298201
+39100388,2,excluded,"task is ECG delineation, not diagnosis/outcome"
+41028772,3,coded,included; full text from PMC PMC12484791
+38257579,4,excluded,review
+42739264,5,excluded,review
+41775984,6,excluded,not ECG input (seismocardiography from video)
+42421084,7,coded,included; full text from PMC PMC13563894
+41455001,8,no full text,eligible on abstract; no PMC record
+42956407,9,excluded,"target is stress task class, not diagnosis/outcome; multimodal physiology"
+40804802,10,excluded,validation of previously developed model; no training reported in abstract
+40942969,11,coded,included; full text from PMC PMC12431083
+37230652,12,excluded,review
+37043121,13,excluded,not ECG input (MRI reconstruction)
+42485907,14,excluded,EEG features with AdaBoost; not DL on ECG
+41650479,15,excluded,not ECG input (sEMG)
+41196189,16,excluded,"task is R-wave detection for MRI gating, not diagnosis/outcome"
+41884351,17,excluded,"tabular clinical/derived ECG variables, not waveforms"
+41295237,18,excluded,review
+42186096,19,excluded,systematic review
+38028503,20,coded,included; full text from PMC PMC10679442
+39477343,21,coded,included; full text from PMC PMC11529765
+37238216,22,excluded,bibliometric review
+37043321,23,excluded,task is fetal ECG extraction (signal processing)
+42234295,24,coded,included; full text from PMC PMC13233968
+40549138,25,excluded,task is denoising
+41054115,26,excluded,task is R-peak detection
+37784153,27,excluded,not ECG input (CMR)
+39943444,28,excluded,task is denoising
+42399614,29,no full text,eligible on abstract; no PMC record
+42525678,30,coded,included; full text from PMC PMC13419237
+38697480,31,coded,included; full text from PMC PMC11751416
+41631200,32,excluded,"LLM framework on structured/text data, not DL on ECG waveforms"
+40942673,33,coded,included; full text from PMC PMC12431549
+39362184,34,no full text,eligibility uncertain on abstract (multi-view cardiovascular signals); no PMC record
+39123835,35,coded,included; full text from PMC PMC11314646
+42251301,36,excluded,scoping review
+42661722,37,excluded,systematic review
+39427424,38,no full text,eligible on abstract; no PMC record
+39353296,39,no full text,eligible on abstract; no PMC record
+39369585,40,no full text,eligible on abstract; no PMC record
+39077651,41,excluded,systematic review
+42491352,42,excluded,"neural network on statistical features from EMD modes (derived features), not waveforms"
+40911461,43,excluded,task is QRS onset detection (signal processing)
+42494821,44,excluded,review
+39193485,45,coded,included; full text from PMC PMC11349306
+36975349,46,excluded,"task is ECG signal quality classification, not diagnosis/outcome"
+38872562,47,no full text,eligible on abstract; no PMC record
+39168295,48,coded,included; full text from PMC PMC11839954
+42676869,49,coded,included; full text from PMC PMC13528239
+41824231,50,excluded,review; CT
+41773691,51,excluded,systematic review
+40031551,52,no full text,eligible on abstract; no PMC record
+40633044,53,excluded,task is missing-lead generation
+38472722,54,coded,included; full text from PMC PMC11371854
+41071049,55,excluded,scoping review
+37687801,56,excluded,"target is driver mental engagement, not diagnosis/outcome; multimodal EEG/SPR/ECG"
+40682722,57,no full text,eligible on abstract; no PMC record
+42529777,58,excluded,review
+41417795,59,excluded,"pharmacovigilance study, not ECG"
+42078341,60,coded,included; full text from PMC PMC13131723
+42434360,61,excluded,review
+41166577,62,excluded,narrative review
+38615104,63,excluded,"input is echocardiogram video, not ECG"
+41358268,64,coded,included; full text from PMC PMC12678738
+41619463,65,excluded,"CNN trained to estimate age (ECG-Age), not a diagnosis/outcome; association study with CHIP"
+41176406,66,no full text,eligible on abstract; no PMC record
+38301492,67,excluded,review
+38460311,68,excluded,systematic review
+38398346,69,excluded,narrative review
+41528718,70,no full text,eligibility uncertain (ML with feature selection); no PMC record
+40720405,71,excluded,"ICU clinical/physiological markers, not ECG waveforms"
+41727953,72,excluded,task is ECG generation from PPG
+42180836,73,coded,included; full text from PMC PMC13194003
+40956750,74,excluded,task is fetal ECG extraction (ICA)
+40015558,75,excluded,editorial
+41561151,76,excluded,classical ML on extracted VCG morphological features (derived features)
+42603817,77,excluded,"blood pressure from PPG, not ECG diagnosis"
+40604021,78,excluded,explainability method study; models regress ECG features; diagnostic performance not the aim
+41265030,79,no full text,"eligibility uncertain (domain adaptation, physiological series); no PMC record"
+42510400,80,coded,included; full text from PMC PMC13405397
+36415325,81,coded,included; full text from PMC PMC9673093
+40402700,82,excluded,"images of multifractal HRV analysis (derived features), not ECG trace"
+42780088,83,excluded,prospective evaluation of existing algorithm; no training
+38022412,84,no full text,eligible; PMC record but efetch returned no article body (publisher restriction)
+40434860,85,no full text,eligible on abstract; no PMC record
+42628486,86,no full text,eligible on abstract; no PMC record
+39883911,87,no full text,eligible on abstract; no PMC record
+40103686,88,excluded,"Apple Watch lifelog data (heart rate, activity), not ECG waveforms"
+42784719,89,no full text,eligible on abstract; no PMC record
+40527801,90,coded,included; full text from PMC PMC12173333
+37022601,91,excluded,evaluates an existing AI-ECG algorithm; no training
+40220757,92,no full text,eligibility uncertain (clinician-AI collaboration for AF); no PMC record
+36657171,93,no full text,eligible on abstract; no PMC record
+41531220,94,coded,included; full text from PMC PMC12800464
+41336913,95,excluded,"input is PPG, not ECG"
+36994109,96,coded,included; full text from PMC PMC10042295
+37183163,97,no full text,eligibility uncertain (clinical validation of DNN algorithm); no PMC record
+37662618,98,excluded,task is synthetic ECG generation
+39266002,99,excluded,review
+40624653,100,excluded,"input is blood pressure waveform, not ECG"
+37781313,101,coded,included; full text from PMC PMC10534067
+38082961,102,no full text,eligible on abstract; no PMC record
+41078611,103,excluded,systematic review
+37124108,104,excluded,"blood pressure estimation, not ECG diagnosis"
+42953053,105,excluded,"input is echocardiogram, not ECG"
+40475896,106,excluded,stress detection from physiological signals with ML; not diagnosis from ECG waveform DL
+41108209,107,excluded,MRI reconstruction
+39150768,108,excluded,"ECG image digitization toolbox, not diagnosis"
+37489538,109,coded,included; full text from PMC PMC10982757
+37152670,110,excluded,DWT features with SVM; not deep learning
+42730155,111,excluded,systematic review
+39021157,112,no full text,eligibility uncertain (CNN on entropy/RR features); no PMC record
+37145258,113,no full text,eligibility uncertain (ensemble classifier); no PMC record
+38302502,114,coded,included; full text from PMC PMC10834950
+37218943,115,excluded,CT reconstruction
+41772669,116,coded,included; full text from PMC PMC13059618
+39372505,117,excluded,"genotype-phenotype image registration, not diagnosis"
+40283456,118,excluded,review
+42810441,119,excluded,systematic review
+39642697,120,no full text,eligible on abstract; no PMC record
+40444765,121,no full text,eligible on abstract; no PMC record
+39804243,122,excluded,applies an existing AI-ECG model; no training
+40660812,123,excluded,CT images
+41653675,124,excluded,QRS detection with dynamic Bayesian network
+37538261,125,excluded,BP neural network on extracted beat/HRV features (derived features)
+42063869,126,excluded,"emotion recognition, not diagnosis"
+39923592,127,no full text,eligible on abstract; no PMC record
+39952964,128,excluded,"input is tokens of heartbeat locations (derived timing features), not waveforms"
+41270994,129,no full text,eligibility uncertain; no PMC record
+36942628,130,coded,included; full text from PMC PMC10227259
+42882289,131,coded,included; full text from PMC PMC13664229
+39366142,132,excluded,"stress detection, not diagnosis"
+37299947,133,excluded,HRV features with random forest
+37971153,134,excluded,blood pressure estimation
+41307845,135,excluded,review
+36641988,136,no full text,eligibility uncertain (ML on 6-lead ECG); no PMC record
+39851318,137,coded,included; full text from PMC PMC11760388
+40648365,138,coded,included; full text from PMC PMC12251829
+39076714,139,excluded,review
+38991373,140,no full text,eligible on abstract; no PMC record
+36738606,141,no full text,eligible on abstract; no PMC record
+40526742,142,coded,included; full text from PMC PMC12173367
+42468692,143,no full text,eligible on abstract; no PMC record
+42964408,144,excluded,narrative review
+41862491,145,excluded,dataset descriptor
+40406972,146,no full text,eligible on abstract; no PMC record
+40031322,147,excluded,CT projections
+39168568,148,coded,included; full text from PMC PMC11753255
+42270695,149,coded,included; full text from PMC PMC13500592
+38603589,150,no full text,eligible on abstract; no PMC record
+41267837,151,excluded,applies a previously validated AI-ECG age model; target is age
+37868778,152,excluded,"intravascular ultrasound, not ECG"
+36836607,153,coded,included; full text from PMC PMC9967487
+42044016,154,no full text,eligibility uncertain (multimodal fusion); no PMC record
+42488151,155,coded,included; full text from PMC PMC13390047
+40017278,156,excluded,"HRV analysis, no DL diagnosis"
+41335684,157,excluded,ECG age estimation with handcrafted features; target is age
+41597832,158,excluded,hardware systematic analysis
+41485012,159,excluded,systematic review (biometrics)
+36844249,160,excluded,blood pressure dataset
+40670798,161,coded,included; full text from PMC PMC12328201
+41890626,162,excluded,CT
+39527413,163,coded,included; full text from PMC PMC13637830
+36369980,164,excluded,"trained on simulated ECG/EGM (non-human), task is VT exit-site localization"
+37745527,165,coded,included; full text from PMC PMC10516080
+41452687,166,no full text,eligible on abstract; no PMC record
+40648468,167,excluded,hardware ECG monitoring system
+39740977,168,no full text,"eligibility uncertain (comparison with AI-ECG potassium, likely existing model); no PMC record"
+37700032,169,coded,included; full text from PMC PMC10497604
+36482800,170,coded,included; full text from PMC PMC10053173
+40039015,171,excluded,QRS detection
+42752420,172,excluded,"intracardiac inverse mapping, not diagnosis"
+37714186,173,no full text,eligible on abstract; no PMC record
+41212334,174,coded,included; full text from PMC PMC12602629
+38475146,175,excluded,PPG activity recognition
+42242104,176,no full text,eligible on abstract; no PMC record
+38660191,177,excluded,emotion recognition
+41888686,178,excluded,CT
+38418628,179,coded,included; full text from PMC PMC10901870
+42922432,180,excluded,systematic review
+42200278,181,excluded,echocardiography with clinical/laboratory data; ECG not the trained input
+38655032,182,coded,included; full text from PMC PMC11035782
+39224246,183,coded,included; full text from PMC PMC11367027
+42879462,184,coded,included; full text from PMC PMC13671549
+37101945,185,no full text,eligible; PMC record but efetch returned no article body
+41684916,186,coded,included; full text from PMC PMC12892491
+41690150,187,no full text,eligible on abstract; no PMC record
+40110214,188,coded,included; full text from PMC PMC11914732
+38762623,189,coded,included; full text from PMC PMC11102430
+42810386,190,no full text,eligible on abstract; no PMC record
+41287804,191,no full text,eligible; PMC record but efetch returned no article body
+38248033,192,excluded,review
+40340907,193,excluded,systematic review
+36662377,194,excluded,pretrained CNNs used as frozen feature extractors with random forest; no DNN training
+41057520,195,coded,included; full text from PMC PMC12504451
+38732812,196,coded,included; full text from PMC PMC11085865
+40660654,197,no full text,eligible on abstract; no PMC record
+39067281,198,excluded,waveform DNN is a pretrained PhysioNet model only applied; models trained here use derived features
+36372400,199,no full text,eligible on abstract; no PMC record
+42510430,200,excluded,MRI reconstruction
+39864743,201,excluded,MRI reconstruction
+42164733,202,excluded,narrative review
+40447041,203,no full text,eligible on abstract; no PMC record
+41107445,204,excluded,task is ECG synthesis
+42218208,205,coded,included; full text from PMC PMC13457847
+42777309,206,no full text,eligible on abstract; no PMC record
+37141727,207,no full text,eligible on abstract; no PMC record
+42082497,208,excluded,dataset descriptor
+41005349,209,excluded,"MRI pilot-tone signal, not ECG diagnosis"
+37629684,210,excluded,CNN on HRV (derived features)
+37965243,211,excluded,scoping review
+37316094,212,no full text,eligible on abstract; no PMC record
+42921967,213,excluded,review
+40370581,214,coded,included; full text from PMC PMC12074648
+41422068,215,excluded,systematic review
+41191231,216,no full text,eligible on abstract; no PMC record
+39768057,217,excluded,review
+40233677,218,no full text,eligible on abstract; no PMC record
+41539004,219,no full text,eligible on abstract; no PMC record
+40715481,220,excluded,"full text shows ECG input is tabular summary measures (QRS, QT, PR, RR), not waveforms"
+38387048,221,excluded,systematic review
+40853807,222,excluded,task is signal quality assessment and HRV analysis
+41216029,223,excluded,review
+41882308,224,excluded,review
+41600344,225,excluded,"BCG/PPG, not ECG"
+39272624,226,excluded,review
+41176407,227,no full text,eligible on abstract; no PMC record
+41270992,228,no full text,"eligibility uncertain (AI vs experts, possibly existing model); no PMC record"
+39767245,229,excluded,CT
+41154828,230,coded,included; full text from PMC PMC12561165
+40470749,231,excluded,"software framework for BCI, not ECG diagnosis"
+39081937,232,coded,included; full text from PMC PMC11284007
+42531977,233,no full text,eligibility uncertain (pace-mapping localisation); no PMC record
+39199800,234,excluded,"PCG/PPG, not ECG"
+41007086,235,excluded,"heart sounds, not ECG"
+38866791,236,coded,included; full text from PMC PMC11169272
+41845566,237,excluded,review
+41661516,238,excluded,"materials science (hydrogel), not ECG diagnosis"
+38498752,239,no full text,eligible on abstract; no PMC record
+41004366,240,excluded,CNN on detrended moving average curves of HRV (derived features)
+38489986,241,excluded,systematic review
+41271946,242,coded,included; full text from PMC PMC12638841
+37204948,243,excluded,cuffless blood pressure validation
+42721883,244,excluded,"ECG encryption, not diagnosis"
+37430605,245,coded,included; full text from PMC PMC10224467
+38745348,246,excluded,"pulse oximetry, not ECG"
+42089090,247,excluded,"unsupervised SOM on clinical data, no DL on ECG waveforms"
+41335921,248,no full text,eligible on abstract; no PMC record
+36766544,249,excluded,"ECG biometric authentication, not diagnosis"
+39847993,250,no full text,eligible on abstract; no PMC record
+37747644,251,excluded,PPG blood pressure
+36773553,252,no full text,eligible on abstract; no PMC record
+36966922,253,excluded,"trial rationale and design, no results"
+42944397,254,excluded,"physiological activation (stress/amusement) states, not diagnosis"
+38705982,255,excluded,"input is RR intervals and respiratory effort (derived), not ECG waveform"
+42371348,256,excluded,"sleep stage classification, not diagnosis"
+40917829,257,coded,included; full text from PMC PMC12411431
+40558656,258,excluded,review
+42956413,259,excluded,"seismocardiogram, not ECG"
+41658864,260,excluded,CT
+40358468,261,excluded,handcrafted binary pattern features (SEPQ); no PMC record
+40850589,262,no full text,eligibility uncertain (evaluation of existing AIRE-AF model vs risk scores); no PMC record
+40636608,263,excluded,"CNN on structured clinical (tabular) data, not ECG waveforms"
+40039647,264,no full text,eligible on abstract; no PMC record
+42342760,265,coded,included; full text from PMC PMC13294490
