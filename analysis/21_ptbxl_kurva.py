@@ -5,7 +5,10 @@ pertama dipakai untuk CNN dan Report sekaligus (bersarang, berpasangan menurut p
 rekaman: k = 1 tepat atas semua putaran, k = n satu pilihan, lainnya 200 pilihan acak. Peringatan kolam terbatas
 berlaku: menarik k dari n tanpa pengembalian menyempitkan bagian variasi putaran sekitar (n − k)/(n − 1).
 
-Pakai: python 21_ptbxl_kurva.py <sasaran> <jumlah putaran> [report|semua] > ptbxl_kurva_<sasaran>.log
+Argumen keempat 'tervalidasi' (pasca-hasil, Hasil bagian D): nilai hanya rekaman validated_by_human = True; model tidak
+dilatih ulang.
+
+Pakai: python 21_ptbxl_kurva.py <sasaran> <jumlah putaran> [report|semua] [tervalidasi] > ptbxl_kurva_<sasaran>.log
 """
 import glob
 import os
@@ -44,6 +47,13 @@ def main():
     PP = {'cnn': np.stack([np.load(os.path.join(T, f'oof_{s}_cnn_benih{b}.npy')) for b in range(n)]),
           'rep': np.load(max(glob.glob(os.path.join(T, f'oof_{s}_{jenis}_*.npy')),
                              key=lambda f: int(f.rsplit('_', 1)[1][:-4])))[:n]}
+    if len(sys.argv) > 4 and sys.argv[4] == 'tervalidasi':
+        XL = glob.glob(os.path.join(os.path.dirname(T), 'xl', '*'))[0]
+        v = pd.read_csv(os.path.join(XL, 'ptbxl_database.csv'), usecols=['ecg_id', 'validated_by_human'])
+        m = d[['ecg_id']].merge(v, on='ecg_id', how='left').validated_by_human.fillna(False).values.astype(bool)
+        y, g = y[m], g[m]
+        PP = {k_: P[:, m] for k_, P in PP.items()}
+        print(f'subset tervalidasi: {m.sum()} dari {len(m)} rekaman')
     sd = {m: np.std([auc(y, p) for p in P]) for m, P in PP.items()}
     print(f'{s} ({jenis}), {n} putaran: {len(y)} rekaman, {y.sum()} positif; SD AUROC antarputaran '
           f'CNN {sd["cnn"]:.3f}, Report {sd["rep"]:.3f}')

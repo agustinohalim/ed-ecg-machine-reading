@@ -50,6 +50,8 @@ Pre-registered on 2 November 2026; the text, unchanged, is `prapendaftaran_ptbxl
   second manufacturer's program, Uni-G (University of Glasgow), in PTB-XL+: `unig8` (eight global measurements, age,
   sex), `unig_semua` (all 748 Uni-G columns, age, sex), and the same-vendor anchor `sl8` (eight 12SL global
   measurements, age, sex). Run `20_ptbxl_report.py <target> 10 <set>` then `21_ptbxl_kurva.py <target> 10 <set>`.
+- Post hoc: `21_ptbxl_kurva.py <target> <runs> [report|semua] tervalidasi` scores the same predictions on the 15,895
+  records whose report was validated by a person (`validated_by_human`), without retraining.
 - Audit: `audit_pustaka/` holds the PubMed query, all PMIDs, the seeded random order, the screening log, the coding
   sheet for 60 studies, and `17_audit_ringkas.py` (Wilson intervals) with its log. Bibliographic data only.
 
